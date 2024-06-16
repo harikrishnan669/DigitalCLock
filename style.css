@@ -28,6 +28,8 @@ body {
     display: flex;
     gap: 50px;
     align-items: flex-start;  
+    margin-top: 200px;
+    text-align: center;
 }
 .date-container {
     padding-center: 20px;
