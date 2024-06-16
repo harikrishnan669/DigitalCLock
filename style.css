@@ -1,5 +1,5 @@
 :root {
-    --item-size: 50px;
+    --item-size: 40px; 
     --bg-color: #d1d8e0;
     --text-selectcolor: #a5b1c2;
     --text-primary: #3867d6;
@@ -8,38 +8,38 @@
 
 body {
     margin: 0;
-    width: 100vw;
-    height: 90vh;
     font-family: "JetBrains Mono", monospace;
     background: var(--bg-color);
-    background-color:black;
+    background: black;
 }
 
 .container {
     margin: auto;
-    padding-top: 100px;
-    width: fit-content;
+    padding-top: 200px; 
+    max-width: 100%;
+    width: 90%;
     display: flex;
-    gap: 50px;
-    align-items: flex-start;
+    flex-direction: column; 
+    align-items: center; 
 }
 
 .clock-container {
     display: flex;
-    gap: 50px;
-    align-items: flex-start;  
-  margin-top: 200px;
-  text-align: center;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 20px; 
 }
+
 .date-container {
-    padding-center: 20px;
+    padding: 10px 20px; 
     text-align: center;
     font-size: 1.5em;
     color: white;
     border: 3px solid white;
-  border-radius: 10px;
-  box-shadow:var(--box-shadow);
-  color:var(--text-selectcolor);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    margin-top: 20px; 
 }
 
 .stripe {
@@ -78,3 +78,4 @@ body {
     box-shadow: var(--box-shadow);
     background: var(--bg-color);
 }
+
