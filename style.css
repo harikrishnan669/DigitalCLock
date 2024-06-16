@@ -12,7 +12,7 @@ body {
     height: 90vh;
     font-family: "JetBrains Mono", monospace;
     background: var(--bg-color);
-    background-image: url("https://fpdcc.com/wp-content/uploads/2021/11/maple-lake-woods-dark-sky-tom-hahn-nov21.jpg");
+    background-color:black;
 }
 
 .container {
@@ -28,8 +28,8 @@ body {
     display: flex;
     gap: 50px;
     align-items: flex-start;  
-    margin-top: 200px;
-    text-align: center;
+  margin-top: 200px;
+  text-align: center;
 }
 .date-container {
     padding-center: 20px;
